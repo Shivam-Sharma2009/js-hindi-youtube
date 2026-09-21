@@ -80,3 +80,4 @@ console.log(instructor);
     {}
 ]
 console.log("Learning JavaScript");
+console.log("Git practice");
