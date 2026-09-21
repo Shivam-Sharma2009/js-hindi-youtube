@@ -27,7 +27,7 @@ const Obj4 = {5: "c", 6: "d"}
 
 const Obj3 = {...Obj1,...Obj2,...Obj4}
 
-console.log(Obj3);
+// console.log(Obj3);
 
 const user = [
     {
@@ -45,11 +45,37 @@ const user = [
 ]
 
 user[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999" ,
+    courseInstructor : "Hitesh" ,
+
+}
+// course.courseInstructor 
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "Shivam" ,
+//     "coursename": "js by chai code",
+//     "price": "free" ,
+// }
+
+[
+    {},
+    {},
+    {}
+]
