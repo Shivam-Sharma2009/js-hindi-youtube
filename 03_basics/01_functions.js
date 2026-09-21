@@ -34,3 +34,4 @@ function loginUserMessage(username = "sam"){
 
 // console.log(loginUserMessage("Shivam"));
 console.log(loginUserMessage("Shivam"));
+console.log("03 basic added");
